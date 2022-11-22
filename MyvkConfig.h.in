@@ -1,0 +1,5 @@
+#define MyVK_Version_Major @MyVK_VERSION_MAJOR@
+#define MyVK_Version_Minor @MyVK_VERSION_MINOR@
+#cmakedefine USE_MATH
+#cmakedefine USE_WINDOWS_VULKAN
+

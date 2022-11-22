@@ -1,0 +1,3 @@
+D:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\WindowUI.dir/objects.a
+D:\tools\mingw64\bin\ar.exe qc CMakeFiles\WindowUI.dir/objects.a @CMakeFiles\WindowUI.dir\objects1.rsp
+D:\tools\mingw64\bin\g++.exe  -fexec-charset=GBK -g -shared -o ..\..\GLFW\publish\bin\libWindowUI.dll -Wl,--out-implib,..\..\GLFW\publish\bin\libWindowUI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\WindowUI.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\WindowUI.dir\linklibs.rsp

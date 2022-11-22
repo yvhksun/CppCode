@@ -1,0 +1,22 @@
+[
+{
+  "directory": "E:/test/CppCode/build",
+  "command": "D:\\tools\\mingw64\\bin\\g++.exe  @CMakeFiles/MyVK.dir/includes_CXX.rsp  -fexec-charset=GBK -g -o CMakeFiles\\MyVK.dir\\Main.cpp.obj -c E:\\test\\CppCode\\Main.cpp",
+  "file": "E:/test/CppCode/Main.cpp"
+},
+{
+  "directory": "E:/test/CppCode/build/MyVulkan",
+  "command": "D:\\tools\\mingw64\\bin\\g++.exe -DMyVulkan_EXPORTS -DVK_USE_PLATFORM_WIN32_KHR -DVK_VERSION_1_0 @CMakeFiles/MyVulkan.dir/includes_CXX.rsp  -fexec-charset=GBK -g -o CMakeFiles\\MyVulkan.dir\\Pipeline.cpp.obj -c E:\\test\\CppCode\\MyVulkan\\Pipeline.cpp",
+  "file": "E:/test/CppCode/MyVulkan/Pipeline.cpp"
+},
+{
+  "directory": "E:/test/CppCode/build/MyVulkan",
+  "command": "D:\\tools\\mingw64\\bin\\g++.exe -DMyVulkan_EXPORTS -DVK_USE_PLATFORM_WIN32_KHR -DVK_VERSION_1_0 @CMakeFiles/MyVulkan.dir/includes_CXX.rsp  -fexec-charset=GBK -g -o CMakeFiles\\MyVulkan.dir\\VulkanContext.cpp.obj -c E:\\test\\CppCode\\MyVulkan\\VulkanContext.cpp",
+  "file": "E:/test/CppCode/MyVulkan/VulkanContext.cpp"
+},
+{
+  "directory": "E:/test/CppCode/build/GLFW",
+  "command": "D:\\tools\\mingw64\\bin\\g++.exe -DGLFW_EXPOSE_NATIVE_WIN32 -DVK_USE_PLATFORM_WIN32_KHR -DVK_VERSION_1_0 -DWindowUI_EXPORTS @CMakeFiles/WindowUI.dir/includes_CXX.rsp  -fexec-charset=GBK -g -o CMakeFiles\\WindowUI.dir\\Win32Instance.cpp.obj -c E:\\test\\CppCode\\GLFW\\Win32Instance.cpp",
+  "file": "E:/test/CppCode/GLFW/Win32Instance.cpp"
+}
+]

@@ -1,0 +1,3 @@
+D:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\MyVK.dir/objects.a
+D:\tools\mingw64\bin\ar.exe qc CMakeFiles\MyVK.dir/objects.a @CMakeFiles\MyVK.dir\objects1.rsp
+D:\tools\mingw64\bin\g++.exe  -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\MyVK.dir/objects.a -Wl,--no-whole-archive -o bin\MyVK.exe -Wl,--out-implib,bin\libMyVK.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyVK.dir\linklibs.rsp
